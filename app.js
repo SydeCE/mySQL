@@ -3,7 +3,7 @@ const app = express();
 const router = express.Router();
 const data = require('./data');
 const port = 3000;
-const routes = requier('./routes');
+const routes = require('./routes');
 
 router.get('/employees', routes.employees.listAllEmployees);
 
