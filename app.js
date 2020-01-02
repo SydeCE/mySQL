@@ -18,5 +18,5 @@ connection.connect(error => {
         return process.exit();
     }
     app.locals.connection = connection;
-    app.listen(settings.APIServerPort, () => console.info(`Server is is listening on ${settings.APIServerPort}.`));
+    app.listen(settings.APIServerPort, () => console.info(`Server is listening on ${settings.APIServerPort}.`));
 });
